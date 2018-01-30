@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.explore.nmerp.ictblog.HomePage">
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/Postlist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v7.widget.RecyclerView>
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_white_24dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="30dp"
+            android:id="@+id/add_Blog_post"
+            android:visibility="gone"
+            android:onClick="addBlogPost"
+            />
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>
+

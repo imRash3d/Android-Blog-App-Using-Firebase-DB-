@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/showprofile"
+        android:icon="@mipmap/ic_person_outline_white_24dp"
+        android:title="Profile"
+        app:showAsAction="always">
+
+    </item>
+    <item android:id="@+id/search"
+        android:icon="@mipmap/ic_search_white_24dp"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView">
+
+    </item>
+
+    <item android:id="@+id/profile"
+        android:title="My Profile"
+        app:showAsAction="never">
+
+    </item>
+
+    <item android:id="@+id/login"
+        android:title="Login"
+        app:showAsAction="never">
+
+    </item>
+
+    <item android:id="@+id/signUp"
+        android:title="Sing Up"
+        app:showAsAction="never">
+
+    </item>
+
+
+    <item android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never">
+
+    </item>
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="com.explore.nmerp.ictblog.LoginPage">
+<ImageButton
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:scaleType="centerCrop"
+    android:background="#fff"
+    android:onClick="homeBtn"
+    android:src="@drawable/home"
+    android:id="@+id/imageButton"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Your Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/loginemail"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Your Password"
+        android:inputType="textPassword"
+        android:id="@+id/loginPassword"
+        android:layout_below="@+id/loginemail"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="56dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="LoginUser"
+        android:id="@+id/button2"
+        android:layout_below="@+id/loginPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+<com.google.android.gms.common.SignInButton
+    android:onClick="googleBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/button3"
+    android:layout_toEndOf="@+id/imageButton">
+
+</com.google.android.gms.common.SignInButton>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:onClick="SignUpUser"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/button3" />
+
+</RelativeLayout>

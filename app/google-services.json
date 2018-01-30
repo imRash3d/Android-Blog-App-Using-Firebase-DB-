@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "939425658767",
+    "firebase_url": "https://ictblog-b1437.firebaseio.com",
+    "project_id": "ictblog-b1437",
+    "storage_bucket": "ictblog-b1437.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939425658767:android:c854827e04f5bd05",
+        "android_client_info": {
+          "package_name": "com.explore.nmerp.ictblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939425658767-kj8k5l7lm51jtq4mc84mk0dk6666mdrp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.explore.nmerp.ictblog",
+            "certificate_hash": "c441898cfc3c3fac6872b7d9ac39b10f6a7e8f5a"
+          }
+        },
+        {
+          "client_id": "939425658767-f32ku1eh0490g1jjjb1tpsfv3582ca0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsi0zoOEiGcVsvkq4JIIvJZsN4uw-jKQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939425658767-f32ku1eh0490g1jjjb1tpsfv3582ca0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

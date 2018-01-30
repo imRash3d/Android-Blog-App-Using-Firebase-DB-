@@ -1,0 +1,78 @@
+<android.support.v7.widget.CardView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/cview"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/postimgV"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img13827" />
+
+
+        <RelativeLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="title"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ic_access_time_black_24dp"
+                android:layout_below="@+id/titleTv"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 Hoyu"
+                android:id="@+id/showtitme"
+                android:layout_marginStart="14dp"
+                android:layout_below="@+id/titleTv"
+                android:textSize="11sp"
+                android:layout_toEndOf="@+id/imageView2" />
+
+
+
+            <TextView
+                android:id="@+id/post"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/showtitme"
+                android:text="sdnfsfn,sdnf,ns,df,nf,n,nsd,f"
+                android:lines="3"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
